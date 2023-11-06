@@ -160,7 +160,7 @@ nav {
 }
 
 .lft button {
-  width: 8vw;
+  width: 12vw;
   padding: 1vw 2vw;
   display: flex;
   align-items: center;
@@ -168,7 +168,7 @@ nav {
   background-color: #ff8000;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -178,18 +178,19 @@ nav {
   justify-content: center;
   width: 40%;
   height: 100%;
-  /* background-color: #FF8000; */
 }
+
 #background {
-  width: 33vw;
+  width: 38vw;
+  opacity: 0.6;
+  animation: circle 100s infinite linear reverse;
 }
 
 #all-plate {
   position: absolute;
-  width: 30vw;
-  height: 30vw;
-  /* background-color: #FF8000; */
-  animation: circle 15s infinite linear;
+  width: 28vw;
+  height: 28vw;
+  animation: circle 30s infinite linear;
 }
 
 #img-three {
@@ -197,7 +198,7 @@ nav {
   position: absolute;
   top: 0%;
   left: 0%;
-  animation: circle 20s infinite linear;
+  animation: circle 30s infinite linear;
 }
 
 #img-two {
@@ -205,7 +206,7 @@ nav {
   position: absolute;
   bottom: -5%;
   right: 25%;
-  animation: circle 20s infinite linear;
+  animation: circle 30s infinite linear;
 }
 
 #img-one {
