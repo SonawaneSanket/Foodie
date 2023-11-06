@@ -183,14 +183,15 @@ nav {
 #background {
   width: 38vw;
   opacity: 0.6;
-  animation: circle 100s infinite linear reverse;
+  animation: circle 200s infinite linear reverse;
+  filter: brightness(80%) contrast(120%) sepia(100%);
 }
 
 #all-plate {
   position: absolute;
   width: 28vw;
   height: 28vw;
-  animation: circle 30s infinite linear;
+  animation: circle 40s infinite linear;
 }
 
 #img-three {
@@ -198,7 +199,7 @@ nav {
   position: absolute;
   top: 0%;
   left: -2%;
-  animation: circle 30s infinite linear;
+  animation: circle 40s infinite linear;
 }
 
 #img-two {
@@ -206,7 +207,7 @@ nav {
   position: absolute;
   bottom: -5%;
   right: 25%;
-  animation: circle 30s infinite linear;
+  animation: circle 40s infinite linear;
 }
 
 #img-one {
