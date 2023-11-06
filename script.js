@@ -7,5 +7,5 @@ mnu.addEventListener("click", function(){
 })
 
 clos.addEventListener("click", function(){
-    nav.style.right = "-100%";
+    nav.style.right = "-50%";
 })

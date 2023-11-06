@@ -34,7 +34,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #eef8ff;
+  background-color: honeydew;
   overflow: hidden;
 }
 
@@ -193,23 +193,23 @@ nav {
 }
 
 #img-three {
-  width: 18vw;
+  width: 8vw;
   position: absolute;
   top: 0%;
-  left: -12%;
+  left: 0%;
   animation: circle 20s infinite linear;
 }
 
 #img-two {
   width: 20vw;
   position: absolute;
-  bottom: -18%;
-  right: 0%;
+  bottom: -5%;
+  right: 25%;
   animation: circle 20s infinite linear;
 }
 
 #img-one {
-  width: 12vw;
+  width: 10vw;
   position: absolute;
   top: 10%;
   right: -5%;
@@ -316,12 +316,6 @@ nav {
     width: 40vw;
     bottom: -50%;
     right: 44%;
-  }
-  #glass {
-    top: 45%;
-    right: -8%;
-    width: 58vw;
-    height: 16vh;
   }
   .lft {
     width: 100%;
