@@ -194,10 +194,10 @@ nav {
 }
 
 #img-three {
-  width: 8vw;
+  width: 15vw;
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: -2%;
   animation: circle 30s infinite linear;
 }
 
